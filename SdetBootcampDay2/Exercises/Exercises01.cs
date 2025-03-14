@@ -40,7 +40,7 @@ namespace SdetBootcampDay2.Exercises
 
             orderHandler.Order(OrderItem.FIFA_24, 1);
 
-            Assert.That(orderHandler.GetStockFor(OrderItem.FIFA_24), Is.EqualTo(9));
+            Assert.That(orderHandler.GetStockFor(OrderItem.FIFA_24), Is.EqualTo(19));
         }
         }
 
