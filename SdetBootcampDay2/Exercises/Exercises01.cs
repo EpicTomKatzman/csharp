@@ -30,6 +30,7 @@ namespace SdetBootcampDay2.Exercises
 
         [Test]
         public void Order1CopyOfFIFA24_ShouldLeave9CopiesRemaining(){
+            var newVar;
             Dictionary<OrderItem, int> stock = new Dictionary<OrderItem, int>
             {
                 { OrderItem.FIFA_24, 10 }
